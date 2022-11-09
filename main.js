@@ -61,7 +61,7 @@ Array(200).fill().forEach(addStar);
 
 
 // Add a textured background using the space image
-const spaceTexture = new THREE.TextureLoader().load("./space.jpg");
+const spaceTexture = new THREE.TextureLoader().load("https://res.cloudinary.com/dpsncyp7f/image/upload/v1668009894/space.jpg_hs7cpz.jpg");
 scene.background = spaceTexture;
 
 //Avatar 
