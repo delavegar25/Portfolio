@@ -92,7 +92,3 @@ blockquote p {
 .left {
     grid-column: 6 / 10 ;
 }
-
-img, picture, video {
-    max-width: 100%;
-}
