@@ -53,7 +53,7 @@ canvas {
     left: 0;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 320px) {
 header {
     background: var(--dark-bg);
     grid-column: 2 / span 5;
@@ -63,7 +63,7 @@ header {
     font-size: 1em;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 320px) {
 section {
     grid-column: 2 / 8;
     padding: 1rem;
