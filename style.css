@@ -53,14 +53,17 @@ canvas {
     left: 0;
 }
 
+@media (min-width: 1200px) {
 header {
     background: var(--dark-bg);
     grid-column: 2 / span 5;
     font-size: 2.5rem;
     padding: 2rem;
     margin-bottom: var(--spacing);
+    font-size: 1em;
+  }
 }
-
+@media (min-width: 1200px) {
 section {
     grid-column: 2 / 8;
     padding: 1rem;
@@ -68,8 +71,9 @@ section {
     font-size: 1.25rem;
     line-height: 1.5;
     margin-bottom: var(--spacing);
+    font-size: 1em;
+ }
 }
-
 blockquote {
     margin: 0;
     padding: 0;
@@ -86,6 +90,9 @@ blockquote p {
 }
 
 .left {
-    grid-column: 6 / 10;
+    grid-column: 6 / 10 ;
 }
 
+img, picture, video {
+    max-width: 100%;
+}
