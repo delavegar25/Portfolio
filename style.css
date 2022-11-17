@@ -32,6 +32,8 @@ main {
     width: 100;
     margin: 0px auto;
     padding: 120px 0px;
+    height: 100%;
+    height: -webkit-fill-available;
 
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -53,7 +55,7 @@ canvas {
     left: 0;
 }
 
-@media (min-width: 320px) {
+@media (min-width: 480px) {
 header {
     background: var(--dark-bg);
     grid-column: 2 / span 5;
@@ -63,7 +65,7 @@ header {
     font-size: 1em;
   }
 }
-@media (min-width: 320px) {
+@media (min-width: 480px) {
 section {
     grid-column: 2 / 8;
     padding: 1rem;
@@ -71,9 +73,11 @@ section {
     font-size: 1.25rem;
     line-height: 1.5;
     margin-bottom: var(--spacing);
+    position: relative;
     font-size: 1em;
  }
 }
+
 blockquote {
     margin: 0;
     padding: 0;
