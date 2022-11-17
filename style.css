@@ -32,8 +32,7 @@ main {
     width: 100;
     margin: 0px auto;
     padding: 120px 0px;
-    height: 100%;
-    height: -webkit-fill-available;
+    
 
     display: grid;
     grid-template-columns: repeat(12, 1fr);
